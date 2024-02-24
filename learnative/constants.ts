@@ -4,28 +4,26 @@ export const MAX_FREE_COUNTS = 5;
 
 export const tools = [
   {
-    label: 'Conversation',
+    label: "Conversation",
     icon: MessageSquare,
-    href: '/conversation',
+    href: "/conversation",
     color: "text-violet-500",
     bgColor: "bg-violet-500/10",
   },
 
-
   {
-    label: 'Code Generation',
+    label: "Code Generation",
     icon: Code,
     color: "text-green-700",
     bgColor: "bg-green-700/10",
-    href: '/code',
+    href: "/code",
   },
 
   {
-    label: 'AI Character',
+    label: "AI Character",
     icon: Users2Icon,
     color: "text-pink-700",
     bgColor: "bg-pink-700/10",
-    href: '/image',
+    href: "/image",
   },
-
 ];

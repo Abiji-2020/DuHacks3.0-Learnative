@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@clerk/nextjs": "^4.29.7",
+    "axios": "^1.6.7",
+    "openai": "^4.28.0"
+  }
+}
