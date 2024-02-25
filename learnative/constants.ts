@@ -1,4 +1,10 @@
-import { CalendarDays, Code, ImageIcon, MessageSquare, Users2Icon } from "lucide-react";
+import {
+  CalendarDays,
+  Code,
+  ImageIcon,
+  MessageSquare,
+  Users2Icon,
+} from "lucide-react";
 
 export const MAX_FREE_COUNTS = 5;
 

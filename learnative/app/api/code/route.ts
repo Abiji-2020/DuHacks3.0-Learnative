@@ -1,4 +1,3 @@
-
 import { OpenAI } from "openai";
 
 import { auth } from "@clerk/nextjs";
@@ -10,9 +9,6 @@ const instructionMessage = {
   content:
     "You are a code generator. You must answer only in markdown code snippets. Use code comments for explanations",
 };
-
-
-
 
 export async function POST(req: Request) {
   try {

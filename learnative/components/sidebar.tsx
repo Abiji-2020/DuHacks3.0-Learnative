@@ -41,7 +41,6 @@ const routes = [
     color: "text-orange-700",
     href: "/calendar",
   },
-
 ];
 
 export const Sidebar = () => {
