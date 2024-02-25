@@ -1,5 +1,6 @@
 
-# ![Group 1](https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/118850069/d7634bd4-f882-4ed4-9ff7-d2682afe5231)
+# ![Group 1](https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/131603380/802cc9b6-4fcd-4ef1-b386-77b9896856f3)
+f882-4ed4-9ff7-d2682afe5231)
 Learnative 🚀
 
 Learnative is an innovative educational platform designed to empower students with the assistance of Artificial Intelligence (AI). 🎓✨
@@ -66,7 +67,7 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 
-OPENAI_API_KEY=
+OPENAI_API_KEY= #include your API key here
 
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ```
@@ -100,7 +101,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 ## Developed by 👨‍💻👩‍💻👨‍💻
 
-<div align="center">
+<div align="justify">
   <a href="https://github.com/Rageshwaran-HR">
     <img src="https://drive.google.com/file/d/1Ps0NR8TFMyUMw5ZXASGrwrmxcLhswmY5/view?usp=drive_link" alt="Rageshwaran.HR" width="100" height="100" style="border-radius: 50%;">
   </a>
