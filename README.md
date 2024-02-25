@@ -1,6 +1,12 @@
-# Learnative 🚀
+
+# ![Group 1](https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/118850069/d7634bd4-f882-4ed4-9ff7-d2682afe5231)
+Learnative 🚀
 
 Learnative is an innovative educational platform designed to empower students with the assistance of Artificial Intelligence (AI). 🎓✨
+
+![WhatsApp Image 2024-02-25 at 18 06 35_ba304702](https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/118850069/6615c60a-fc7c-4020-8172-52da01f546c3)
+
+
 
 ## About Learnative
 
