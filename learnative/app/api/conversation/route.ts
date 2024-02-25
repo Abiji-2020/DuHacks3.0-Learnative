@@ -2,7 +2,7 @@ import { OpenAI } from "openai";
 import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 
-const openai = new OpenAI({ apiKey: "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" });
+const openai = new OpenAI({ apiKey: "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" });
 export async function POST(req: Request) {
   try {
     const { userId } = auth();

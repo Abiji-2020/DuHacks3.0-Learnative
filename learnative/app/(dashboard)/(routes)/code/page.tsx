@@ -6,7 +6,7 @@ import { Code } from "lucide-react";
 import { useForm } from "react-hook-form";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ReactMarkdown } from "react-markdown";
+import ReactMarkdown from "react-markdown";
 
 import { Heading } from "@/components/heading";
 import { Button } from "@/components/ui/button";
@@ -16,16 +16,16 @@ import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import { Empty } from "@/components/ui/empty";
 import { formSchema } from "./constants";
 import { Loader } from "@/components/loader";
-const { ChatCompletionRequestMessage } = require("openai");
+import { ChatCompletionMessageParam } from "openai/resources/chat/completions";
 
-import { Empty } from "@/components/empty";
 import { UserAvatar } from "@/components/user-avatar";
 
 import { BotAvatar } from "@/components/bot-avatar";
+import { cn } from "@/lib/utils";
 
 const CodePage = () => {
   const router = useRouter();
-  const [messages, setMessages] = useState<ChatCompletionRequestMessage[]>([]);
+  const [messages, setMessages] = useState<ChatCompletionMessageParam[]>([]);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -38,7 +38,7 @@ const CodePage = () => {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      const userMessage: ChatCompletionRequestMessage = {
+      const userMessage: ChatCompletionMessageParam = {
         role: "user",
         content: values.prompt,
       };
@@ -121,9 +121,9 @@ const CodePage = () => {
             <Empty label="No conversation started" />
           )}
           <div className="flex flex-col-reverse gap-y-4">
-            {Messages.map((message) => (
+            {messages.map((message, index) => (
               <div
-                key={message.content}
+                key={index}
                 className={cn(
                   "p-8 w-full flex items-start gap-x-8 rounded-lg",
                   message.role === "user"
@@ -132,20 +132,17 @@ const CodePage = () => {
                 )}
               >
                 {message.role === "user" ? <UserAvatar /> : <BotAvatar />}
-                <ReactMarkdown
-                  components={{
-                    pre: ({ node, ...props }) => (
-                      <div className="overflow-auto w-full my-2 bg-black/10 p-2 rounded-lg">
-                        <pre {...props} />
-                      </div>
-                    ),
-                    code: ({ node, ...props }) => (
-                      <code className="bg-black/10 rounded-lg p-1" {...props} />
-                    ),
-                  }}
-                  className="text-sm overflow-hidden leading-7"
-                >
-                  {message.content || ""}
+                <ReactMarkdown components={{
+                  pre: ({ node, ...props }) => (
+                    <div className="overflow-auto w-full my-2 bg-black/10 p-2 rounded-lg">
+                      <pre {...props} />
+                    </div>
+                  ),
+                  code: ({ node, ...props }) => (
+                    <code className="bg-black/10 rounded-lg p-1" {...props} />
+                  )
+                }} className="text-sm overflow-hidden leading-7">
+                  {String(message.content)}
                 </ReactMarkdown>
               </div>
             ))}
