@@ -8,6 +8,10 @@ Learnative is an innovative educational platform designed to empower students wi
 
 
 
+🌐 Explore our project live at: [**du-hacks3-0-learnative.vercel.app**](https://du-hacks3-0-learnative.vercel.app)
+
+
+
 ## About Learnative
 
 Learnative combines cutting-edge AI technologies with interactive learning experiences, providing students with personalized and efficient study support. Whether you're tackling complex subjects, preparing for exams, or exploring new interests, Learnative is here to enhance your learning journey.
