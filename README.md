@@ -94,4 +94,23 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js. 🚀✨
 
+## Developed by 👨‍💻👩‍💻👨‍💻
+
+<div align="center">
+  <a href="https://github.com/Rageshwaran-HR">
+    <img src="https://imagetolink.com/ib/1w0K8CYLZt" alt="Rageshwaran.HR" width="100" height="100" style="border-radius: 50%;">
+  </a>
+  <a href="https://github.com/Abiji-2020">
+    <img src="https://imagetolink.com/ib/pCQpPLsk23" alt="Abinand.P" width="100" height="100" style="border-radius: 50%;">
+  </a>
+  <a href="https://github.com/Fahrudeen">
+    <img src="https://imagetolink.com/ib/CqZkLNljuH" alt="faruhudeen" width="100" height="100" style="border-radius: 50%;">
+  </a>
+  <a href="https://github.com/Bit-Blazer">
+    <img src="https://imagetolink.com/ib/atbhctQwYn" alt="Kamilhasan" width="100" height="100" style="border-radius: 50%;">
+  </a>
+</div>
+
+
+
 
