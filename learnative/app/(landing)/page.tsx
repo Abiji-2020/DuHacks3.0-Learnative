@@ -1,3 +1,4 @@
+import { LandingNavbar } from "@/components/landing-navbar";
 
 const LandingPage = () => {
   return (
