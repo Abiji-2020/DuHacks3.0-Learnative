@@ -7,9 +7,8 @@ import {
   Code,
   LayoutDashboard,
   MessageSquare,
-  Music,
+  CalendarDays,
   Settings,
-  VideoIcon,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 
@@ -35,6 +34,12 @@ const routes = [
     icon: Code,
     color: "text-green-700",
     href: "/code",
+  },
+  {
+    label : "Events",
+    icon : CalenderDays, 
+    color: "text-orange-700",
+    href: "/calendar",
   },
   {
     label: "Settings",
