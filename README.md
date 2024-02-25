@@ -17,7 +17,7 @@ Learnative combines cutting-edge AI technologies with interactive learning exper
 
 ## Demo Video
 
-<video src = "https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/64a6a13a-427e-49c2-b6f8-c04588b61753">
+https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/64a6a13a-427e-49c2-b6f8-c04588b61753
   
 
 
@@ -108,16 +108,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 <div align="justify">
   <a href="https://github.com/Abiji-2020">
-    <img src="https://raw.githubusercontent.com/Abiji-2020/DuHacks3.0-Learnative/master/assets/145255212/c5ffaea6-b9b1-4367-bac4-45d6c7832c6c" alt="Abinand.P" width="100" height="100" style="border-radius: 50%; margin: 10px;">
+    <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/c5ffaea6-b9b1-4367-bac4-45d6c7832c6c" alt="Abinand.P" width="100" height="100" style="border-radius: 50%; margin: 10px;">
   </a>
   <a href="https://github.com/Rageshwaran-HR">
-    <img src="https://raw.githubusercontent.com/Abiji-2020/DuHacks3.0-Learnative/master/assets/145255212/193646b4-9775-4b7b-a65c-3102f9b31c8f" alt="Rageshwaran.HR" width="100" height="100" style="border-radius: 50%; margin: 10px;">
+    <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/193646b4-9775-4b7b-a65c-3102f9b31c8f" alt="Rageshwaran.HR" width="100" height="100" style="border-radius: 50%; margin: 10px;">
   </a>
   <a href="https://github.com/Fahrudeen">
-    <img src="https://raw.githubusercontent.com/Abiji-2020/DuHacks3.0-Learnative/master/assets/145255212/f94e6408-cedc-41d2-bd38-64ea1a670325" alt="faruhudeen" width="100" height="100" style="border-radius: 50%; margin: 10px;">
+    <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/f94e6408-cedc-41d2-bd38-64ea1a670325" alt="faruhudeen" width="100" height="100" style="border-radius: 50%; margin: 10px;">
   </a>
   <a href="https://github.com/Bit-Blazer">
-    <img src="https://raw.githubusercontent.com/Abiji-2020/DuHacks3.0-Learnative/master/assets/145255212/4350806f-9900-4186-be72-c810e5e608bb" alt="Kamilhasan" style="border-radius: 50%; margin: 10px;">
+    <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/4350806f-9900-4186-be72-c810e5e608bb" alt="Kamilhasan" style="border-radius: 50%; margin: 10px; width:100px; height:100px;">
   </a>
 </div>
 
