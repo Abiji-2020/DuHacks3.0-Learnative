@@ -106,13 +106,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
     <img src="https://drive.google.com/file/d/1Ps0NR8TFMyUMw5ZXASGrwrmxcLhswmY5/view?usp=drive_link" alt="Rageshwaran.HR" width="100" height="100" style="border-radius: 50%;">
   </a>
   <a href="https://github.com/Abiji-2020">
-    <img src="https://imagetolink.com/ib/pCQpPLsk23" alt="Abinand.P" width="100" height="100" style="border-radius: 50%;">
+    <img src="https://imagetolink.com/ib/pCQpPLsk23.jpg" alt="Abinand.P" width="100" height="100" style="border-radius: 50%;">
   </a>
   <a href="https://github.com/Fahrudeen">
-    <img src="https://imagetolink.com/ib/CqZkLNljuH" alt="faruhudeen" width="100" height="100" style="border-radius: 50%;">
+    <img src="https://imagetolink.com/ib/CqZkLNljuH.jpg" alt="faruhudeen" width="100" height="100" style="border-radius: 50%;">
   </a>
   <a href="https://github.com/Bit-Blazer">
-    <img src="https://imagetolink.com/ib/atbhctQwYn" alt="Kamilhasan" width="100" height="100" style="border-radius: 50%;">
+    <img src="https://imagetolink.com/ib/atbhctQwYn.png" alt="Kamilhasan" width="100" height="100" style="border-radius: 50%;">
   </a>
 </div>
 
