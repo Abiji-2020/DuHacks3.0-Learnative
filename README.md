@@ -34,7 +34,7 @@ Learnative combines cutting-edge AI technologies with interactive learning exper
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
+git clone https://github.com/Abiji-2020/DuHacks3.0-Learnative.git
 ```
 
 ### Install Packages
