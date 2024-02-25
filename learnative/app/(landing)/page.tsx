@@ -1,5 +1,9 @@
+
 const LandingPage = () => {
-  return <div>Landing page(Unported)</div>;
+  return (
+    <div className="h-full">
+      <LandingNavbar />   
+    </div>
 };
 
 export default LandingPage;
