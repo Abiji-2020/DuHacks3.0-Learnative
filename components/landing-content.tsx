@@ -8,30 +8,30 @@ const githubLogoUrl =
 const developers = [
   {
     name: "Abinand",
-    title: "Software Engineer",
+    title: "Lead Developer",
     description:
-      "Learning is made easier! Passionate about building innovative solutions.",
+      "Meet our visionary Lead Developer who orchestrates the AI symphony at Learnative. With a passion for cutting-edge technology, they pave the way for innovation and guide the team towards pushing the boundaries of AI generation.",
     github: "https://github.com/Abiji-202",
   },
   {
     name: "Rageshwaran",
-    title: "FullStack Developer",
+    title: "Code Maestro",
     description:
-      "This is the best application I've ever used! Experienced in coding and problem-solving.",
+      "Our Code Maestro translates ideas into lines of brilliance. With a keyboard as their paintbrush, they craft the algorithms that power Learnative, ensuring each generated output is a masterpiece of precision and efficiency.",
     github: "https://github.com/Rageshwaran-HR",
   },
   {
     name: "Kamil Hassan",
-    title: "Software Engineer",
+    title: "Conversation Alchemist",
     description:
-      "A better AI made for learning! Dedicated to creating intelligent systems.",
+      "The Conversation Alchemist on our team breathes life into dialogues and interactions. Armed with natural language processing skills, they enchant Learnative's AI characters, making them your virtual companions in the learning journey.",
     github: "https://github.com/Bit-Blazer",
   },
   {
     name: "Fahrudeen",
-    title: "Software Engineer",
+    title: "Scheduler Extraordinaire",
     description:
-      "This is the best application I've ever used! Enthusiastic about software development.",
+      "Meet our Scheduler Extraordinaire, the architect behind Learnative's seamless organization. Their expertise in calendar scheduling AI ensures that your plans align effortlessly, leaving you with more time to focus on what matters most.",
     github: "https://github.com/Fahrudeen",
   },
 ];
