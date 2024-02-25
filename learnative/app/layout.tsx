@@ -19,9 +19,10 @@ export default function RootLayout({
   return (
     <ClerkProvider
       appearance={{
-        variables: { colorPrimary: 'red' },
+        baseTheme: neobrutalism,
+        variables: { colorPrimary: 'grey' },
         signIn: {
-          baseTheme: neobrutalism,
+          baseTheme: shadesOfPurple,
           variables: { colorPrimary: 'blue' }
         }
       }}

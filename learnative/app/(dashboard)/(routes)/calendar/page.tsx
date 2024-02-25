@@ -17,13 +17,6 @@ interface Event {
 }
 
 export default function Home() {
-  const [events, setEvents] = useState([
-    { title: 'event 1', id: '1' },
-    { title: 'event 2', id: '2' },
-    { title: 'event 3', id: '3' },
-    { title: 'event 4', id: '4' },
-    { title: 'event 5', id: '5' },
-  ])
   const [allEvents, setAllEvents] = useState<Event[]>([])
   const [showModal, setShowModal] = useState(false)
   const [showDeleteModal, setShowDeleteModal] = useState(false)
@@ -55,7 +48,7 @@ export default function Home() {
     setShowModal(true)
   }
 
-  function addEvent(data: DropArg) {
+  function addEvent(data: any) {
     const event = { ...newEvent, start: data.date.toISOString(), title: data.draggedEl.innerText, allDay: data.allDay, id: new Date().getTime() }
     setAllEvents([...allEvents, event])
   }
@@ -104,12 +97,12 @@ export default function Home() {
 
   return (
     <>
-      <nav className="flex justify-between mb-12 border-b border-violet-100 p-4">
+      <nav className="flex justify-between mb-8 border-b border-violet-100 p-4">
         <h1 className="font-bold text-2xl text-gray-700">Calendar</h1>
       </nav>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="grid grid-cols-10">
-          <div className="col-span-8">
+      <main className="flex min-h-screen flex-col items-center p-5 sm:p-8 md:p-12 lg:p-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4">
+          <div className="col-span-1 sm:col-span-4 lg:col-span-4 xl:col-span-3 shadow-lg text-black">
             <FullCalendar
               plugins={[
                 dayGridPlugin,
@@ -119,30 +112,16 @@ export default function Home() {
               headerToolbar={{
                 left: 'prev,next today',
                 center: 'title',
-                right: 'resourceTimelineWook, dayGridMonth,timeGridWeek'
+                right: 'dayGridMonth,timeGridWeek'
               }}
-              events={allEvents as EventSourceInput}
+              events={allEvents as any}
               nowIndicator={true}
               editable={true}
-              droppable={true}
               selectable={true}
-              selectMirror={true}
               dateClick={handleDateClick}
-              drop={(data) => addEvent(data)}
               eventClick={(data) => handleDeleteModal(data)}
+              height="65vh"
             />
-          </div>
-          <div id="draggable-el" className="ml-8 w-full border-2 p-2 rounded-md mt-16 lg:h-1/2 bg-violet-50">
-            <h1 className="font-bold text-lg text-center">Drag Event</h1>
-            {events.map(event => (
-              <div
-                className="fc-event border-2 p-1 m-2 w-full rounded-md ml-auto text-center bg-white"
-                title={event.title}
-                key={event.id}
-              >
-                {event.title}
-              </div>
-            ))}
           </div>
         </div>
 
@@ -156,7 +135,6 @@ export default function Home() {
               leave="ease-in duration-200"
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
-
             >
               <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
             </Transition.Child>
@@ -172,8 +150,7 @@ export default function Home() {
                   leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                   leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                 >
-                  <Dialog.Panel className="relative transform overflow-hidden rounded-lg
-                   bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg"
+                  <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg"
                   >
                     <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
                       <div className="sm:flex sm:items-start">
@@ -280,7 +257,7 @@ export default function Home() {
             </div>
           </Dialog>
         </Transition.Root>
-      </main >
+      </main>
     </>
   )
 }
