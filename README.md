@@ -15,6 +15,13 @@ Learnative is an innovative educational platform designed to empower students wi
 
 Learnative combines cutting-edge AI technologies with interactive learning experiences, providing students with personalized and efficient study support. Whether you're tackling complex subjects, preparing for exams, or exploring new interests, Learnative is here to enhance your learning journey.
 
+## Demo Video
+
+
+https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/118850069/45a6f849-127b-4b53-95b9-c8417abc4b0a
+
+
+
 ## Key Features
 
 - **AI-Powered Assistance:** Leverage the power of AI to receive tailored learning recommendations and assistance.
@@ -101,6 +108,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 <div align="justify">
   <a href="https://github.com/Abiji-2020">
+
     <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/c5ffaea6-b9b1-4367-bac4-45d6c7832c6c" alt="Abinand.P" width="100" height="100" style="border-radius: 50%;">
   </a>
   <a href="https://github.com/Rageshwaran-HR">
@@ -111,6 +119,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
   </a>
   <a href="https://github.com/Bit-Blazer">
     <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/4350806f-9900-4186-be72-c810e5e608bb" alt="Kamilhasan"   position = "relative" style="display: inline-block; overflow: hidden; border-radius: 50%;width: 100px; height: 100px;">
+
   </a>
 </div>
 
