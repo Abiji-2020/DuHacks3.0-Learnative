@@ -1,4 +1,4 @@
-import { Code, ImageIcon, MessageSquare, Users2Icon } from "lucide-react";
+import { CalendarDays, Code, ImageIcon, MessageSquare, Users2Icon } from "lucide-react";
 
 export const MAX_FREE_COUNTS = 5;
 
@@ -20,10 +20,10 @@ export const tools = [
   },
 
   {
-    label: "AI Character",
-    icon: Users2Icon,
-    color: "text-pink-700",
-    bgColor: "bg-pink-700/10",
-    href: "/image",
+    label: "Events",
+    icon: CalendarDays,
+    color: "text-orange-700",
+    bgColor: "bg-orange-700/10",
+    href: "/calendar",
   },
 ];
