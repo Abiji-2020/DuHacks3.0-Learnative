@@ -1,15 +1,13 @@
 
-# ![Group 1](https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/131603380/802cc9b6-4fcd-4ef1-b386-77b9896856f3)
-f882-4ed4-9ff7-d2682afe5231)
-Learnative 🚀
+# <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/131603380/802cc9b6-4fcd-4ef1-b386-77b9896856f3">
 
 Learnative is an innovative educational platform designed to empower students with the assistance of Artificial Intelligence (AI). 🎓✨
 
-![WhatsApp Image 2024-02-25 at 18 06 35_ba304702](https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/118850069/6615c60a-fc7c-4020-8172-52da01f546c3)
+<img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/118850069/6615c60a-fc7c-4020-8172-52da01f546c3">
 
 
 
-🌐 Explore our project live at: [**du-hacks3-0-learnative.vercel.app**](https://du-hacks3-0-learnative.vercel.app)
+🌐 Explore our project live at: [**learnative.vercel.app**](https://learnative.vercel.app/)
 
 
 
@@ -46,8 +44,8 @@ https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/118850069/45a6f849-12
 - How to handle relations between Server and Child components!
 - How to reuse layouts
 - Folder structure in Next 13 App Router
-
-## Getting Started
+  
+## Getting Started For Deveopers
 
 ### Cloning the Repository
 
@@ -109,19 +107,32 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 ## Developed by 👨‍💻👩‍💻👨‍💻
 
 <div align="justify">
-  <a href="https://github.com/Rageshwaran-HR">
-    <img src="https://drive.google.com/file/d/1Ps0NR8TFMyUMw5ZXASGrwrmxcLhswmY5/view?usp=drive_link" alt="Rageshwaran.HR" width="100" height="100" style="border-radius: 50%;">
-  </a>
   <a href="https://github.com/Abiji-2020">
-    <img src="https://imagetolink.com/ib/pCQpPLsk23.jpg" alt="Abinand.P" width="100" height="100" style="border-radius: 50%;">
+
+    <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/c5ffaea6-b9b1-4367-bac4-45d6c7832c6c" alt="Abinand.P" width="100" height="100" style="border-radius: 50%;">
+  </a>
+  <a href="https://github.com/Rageshwaran-HR">
+    <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/193646b4-9775-4b7b-a65c-3102f9b31c8f" alt="Rageshwaran.HR" width="100" height="100" style="border-radius: 50%;">
   </a>
   <a href="https://github.com/Fahrudeen">
-    <img src="https://imagetolink.com/ib/CqZkLNljuH.jpg" alt="faruhudeen" width="100" height="100" style="border-radius: 50%;">
+    <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/f94e6408-cedc-41d2-bd38-64ea1a670325" alt="faruhudeen" width="100" height="100" style="border-radius: 50%;">
   </a>
   <a href="https://github.com/Bit-Blazer">
-    <img src="https://imagetolink.com/ib/atbhctQwYn.png" alt="Kamilhasan" width="100" height="100" style="border-radius: 50%;">
+    <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/4350806f-9900-4186-be72-c810e5e608bb" alt="Kamilhasan"   position = "relative" style="display: inline-block; overflow: hidden; border-radius: 50%;width: 100px; height: 100px;">
+
   </a>
 </div>
+
+## Demo Video
+
+<video src = "https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/145255212/64a6a13a-427e-49c2-b6f8-c04588b61753">
+  
+
+
+
+
+
+
 
 
 
