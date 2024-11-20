@@ -1,7 +1,7 @@
 
 # <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/131603380/802cc9b6-4fcd-4ef1-b386-77b9896856f3">
 
-Learnative is an innovative educational platform designed to empower students with the assistance of Artificial Intelligence (AI). 🎓✨
+Learnative is an innovative educational platform designed to empower students with the assistance of Artificial Intelligence (AI). 🎓✨ It enables seamless communication with the students. 
 
 <img src="https://github.com/Abiji-2020/DuHacks3.0-Learnative/assets/118850069/6615c60a-fc7c-4020-8172-52da01f546c3">
 
